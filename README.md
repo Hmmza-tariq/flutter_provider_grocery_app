@@ -1,16 +1,18 @@
-# provider_grocery_app
+Hello, everyone! In this video, we will dive into the Flutter Provider package while working on a grocery app project. We'll break down the concept and workings of Provider in a friendly and easy-to-understand manner.
 
-A new Flutter project.
+Watch Now: https://youtu.be/OR6IhETRr-8
 
-## Getting Started
+Key topics covered:
+- Introduction to the Flutter Provider package
+- Explaining the concept and functionality of Provider
+- How to integrate Provider into a grocery app project
 
-This project is a starting point for a Flutter application.
+By the end of this tutorial, you'll have a solid grasp of using Provider to manage state in your Flutter app development.
 
-A few resources to get you started if this is your first Flutter project:
+Stay updated with the latest in Flutter development by subscribing to our channel. If you find this tutorial helpful, please give it a thumbs up and share it with your fellow Flutter enthusiasts.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#Flutter #Provider #GroceryApp #EnglishTutorial #MobileAppDevelopment
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+buy me a coffee: https://www.buymeacoffee.com/hmmzatariq
+
+#flutter #fluttertutorial #fluttercord #fluttershy #flutterwidgets #flutterinhindi
