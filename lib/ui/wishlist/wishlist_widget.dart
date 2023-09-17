@@ -28,6 +28,7 @@ class WishlistWidget extends StatelessWidget {
               ),
               IconButton(
                   onPressed: () {
+                    //Add Item to cart
                     Provider.of<CartProvider>(context, listen: false)
                         .addItem(item);
                     ScaffoldMessenger.of(context).showSnackBar(

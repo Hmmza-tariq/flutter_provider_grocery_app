@@ -13,17 +13,20 @@ class Cart extends StatefulWidget {
 class _CartState extends State<Cart> {
   @override
   Widget build(BuildContext context) {
+    //Cart provider instance
+
     CartProvider cartProvider =
         Provider.of<CartProvider>(context, listen: false);
-
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.teal,
         title: const Text('Cart'),
       ),
       body: ListView.builder(
+          //Cart Items length
           itemCount: cartProvider.getCartItems().length,
           itemBuilder: (context, index) {
+            //Cart Item
             return CartWidget(item: cartProvider.getCartItems()[index]);
           }),
     );

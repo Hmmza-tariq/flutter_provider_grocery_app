@@ -13,6 +13,8 @@ class Wishlist extends StatefulWidget {
 class _WishlistState extends State<Wishlist> {
   @override
   Widget build(BuildContext context) {
+    //wishlist Provider instance
+
     WishlistProvider wishlistProvider =
         Provider.of<WishlistProvider>(context, listen: false);
     return Scaffold(
@@ -21,9 +23,11 @@ class _WishlistState extends State<Wishlist> {
         title: const Text('Wishlist'),
       ),
       body: ListView.builder(
+          //wishlist items length
           itemCount: wishlistProvider.getWishlistItems().length,
           itemBuilder: (context, index) {
             return WishlistWidget(
+                //wishlist item
                 item: wishlistProvider.getWishlistItems()[index]);
           }),
     );

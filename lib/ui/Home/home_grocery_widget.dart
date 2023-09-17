@@ -24,6 +24,7 @@ class GroceryWidget extends StatelessWidget {
           children: [
             IconButton(
                 onPressed: () {
+                  //Add Item to wishlist
                   Provider.of<WishlistProvider>(context, listen: false)
                       .addItem(item);
                   ScaffoldMessenger.of(context).showSnackBar(
@@ -32,6 +33,7 @@ class GroceryWidget extends StatelessWidget {
                 icon: const Icon(Icons.favorite_border)),
             IconButton(
                 onPressed: () {
+                  //Add Item to cart
                   Provider.of<CartProvider>(context, listen: false)
                       .addItem(item);
                   ScaffoldMessenger.of(context).showSnackBar(
